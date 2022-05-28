@@ -2,7 +2,7 @@
 Simple parser for those random broken macOS panic logs
 
 
-Usage:
+## Usage:
 - Print to Terminal Window:
  
     `./panicParser $input_file`
@@ -12,6 +12,9 @@ Usage:
     `-./panicParser $input_file writeToFile $output_file`
   
   
+  
+ ## Compiling
+ Simple as `clang -fmodules ./panicParser.m -o ./panicParser`
  ## Before
 <img width="1920" alt="Screen Shot 2022-05-27 at 8 43 06 PM" src="https://user-images.githubusercontent.com/72932987/170804902-31585051-2ee8-4c3f-86d3-a9677d4948c7.png">
 
