@@ -3,9 +3,11 @@ Simple parser for those random broken macOS panic logs
 
 
 Usage:
-- Print to Terminal Window:\n
+- Print to Terminal Window:
+ 
   `./panicParser $input_file`
   
 - Output to File:\n
-  `-./panicParser $input_file writeToFile $output_file`
+  
+   `-./panicParser $input_file writeToFile $output_file`
   
